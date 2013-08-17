@@ -1,7 +1,7 @@
 {
   "name": "MangoJS",
-  "description: "To infinity and beyond",
-  "version": "0.0.1"
+  "description": "To infinity and beyond",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "mocha": "1.12.0",
