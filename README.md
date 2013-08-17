@@ -1,4 +1,4 @@
-MangoJS
+Mango.js
 ===
 
 ```bash
