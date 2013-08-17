@@ -1,0 +1,6 @@
+MangoJS
+===
+
+```bash
+$ npm install
+```
