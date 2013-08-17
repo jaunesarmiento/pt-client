@@ -2,7 +2,7 @@ Mango.js
 ===
 
 ```bash
-$ npm install
+$ npm install mangojs
 ```
 
 ## Usage
