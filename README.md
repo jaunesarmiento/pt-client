@@ -10,7 +10,7 @@ $ npm install
 ```javascript
 var opts = {
   "projectId": "YOUR_PROJECT_ID",
-  "token": "YOUR_PIVOTAK_TRACKER_API_KEY"
+  "token": "YOUR_PIVOTAL_TRACKER_API_KEY"
 }
 
 // Initialize Mango.js
