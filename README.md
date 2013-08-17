@@ -16,23 +16,18 @@ var opts = {
 // Initialize Mango.js
 var mango = new Mango(opts);
 
-// Returns the stories under the project
-mango.getStories(function (stories) {
-  // do stuff with stories
-});
+// Start a user story
+mango.start("STORY_ID", callback);
 
-// Returns a list of stories with status 'started' under the project
-mango.getStoriesByStatus({ status: 'started' }, function (stories) {
-  // do stuff with stories
-});
+// Finish a user story
+mango.finish("STORY_ID", callback);
 
-// Sets the status of story with id 55340544 to 'started'
-mango.setStoryStatus({ storyId: '55340544', status: 'started' }, function (story) {
-  // do other stuff with the story
-});
+// Deliver a user story
+mango.deliver("STORY_ID", callback);
 
-// Gets the list of tasks under story with id 55340544
-mango.getStoryTasks({ storyId: '55340544' }, function (tasks) {
-  // do stuff with tasks
-});
+// Accept a user story
+mango.accept("STORY_ID", callback);
+
+// Reject a user story
+mango.reject("STORY_ID", callback);
 ```
