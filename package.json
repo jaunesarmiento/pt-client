@@ -1,6 +1,7 @@
 {
-  "name": "Mango.js",
+  "name": "mangojs",
   "description": "To infinity and beyond",
+  "author": "Jaune Sarmiento",
   "version": "0.0.1",
   "dependencies": {
     "pivotal": "0.2.0",
@@ -12,5 +13,9 @@
   "main": "./index",
   "scripts": {
     "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaunesarmiento/mangojs"
   }
 }
